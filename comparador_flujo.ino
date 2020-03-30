@@ -23,12 +23,12 @@ void loop ()
 NbTopsFan = 0;
 
 sei(); 
-delay (100); 
+delay (10); 
 cli(); 
 Calc = (NbTopsFan * 5.5);
 
 suma= suma+Calc;
-if (suma <= 60){
+if (suma <= 6){
   digitalWrite(valvula, LOW);
 
 
